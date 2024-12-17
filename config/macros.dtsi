@@ -8,7 +8,7 @@ macro_alfred: macro_alfred{
 compatible = "zmk,behavior-macro";
 label = "macro_alfred";
 #binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp SPACE>;
+bindings = <&kt LCTRL>, <&kt LEFT_SHIFT>, <&kp SPACE>, <&kt LCTRL>, <&kt LEFT_SHIFT>;
 };
 macro_tilda: macro_tilda{
 compatible = "zmk,behavior-macro";
